@@ -615,6 +615,12 @@
 		486E89F4220B790E007CD915 /* KeyframeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E879E220B78BF007CD915 /* KeyframeExtensions.swift */; };
 		486E89F5220B790E007CD915 /* AnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E87A0220B78BF007CD915 /* AnimationContext.swift */; };
 		48F4EECD229F167F00949A97 /* TextCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E8724220B78BF007CD915 /* TextCompositionLayer.swift */; };
+		9D0AE11323CF631A000E6813 /* AnimationLayerPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0AE11223CF631A000E6813 /* AnimationLayerPrivate.swift */; };
+		9D0AE11423CF631A000E6813 /* AnimationLayerPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0AE11223CF631A000E6813 /* AnimationLayerPrivate.swift */; };
+		9D0AE11523CF631A000E6813 /* AnimationLayerPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0AE11223CF631A000E6813 /* AnimationLayerPrivate.swift */; };
+		9D0AE11723CF6362000E6813 /* AnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0AE11623CF6362000E6813 /* AnimationLayer.swift */; };
+		9D0AE11823CF6362000E6813 /* AnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0AE11623CF6362000E6813 /* AnimationLayer.swift */; };
+		9D0AE11923CF6362000E6813 /* AnimationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0AE11623CF6362000E6813 /* AnimationLayer.swift */; };
 		CD1616482367325A00325353 /* GradientValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1616472367325A00325353 /* GradientValueProvider.swift */; };
 		CD1616492367325A00325353 /* GradientValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1616472367325A00325353 /* GradientValueProvider.swift */; };
 		CD16164A2367325A00325353 /* GradientValueProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1616472367325A00325353 /* GradientValueProvider.swift */; };
@@ -779,6 +785,8 @@
 		486E879D220B78BF007CD915 /* Interpolatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolatable.swift; sourceTree = "<group>"; };
 		486E879E220B78BF007CD915 /* KeyframeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyframeExtensions.swift; sourceTree = "<group>"; };
 		486E87A0220B78BF007CD915 /* AnimationContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationContext.swift; sourceTree = "<group>"; };
+		9D0AE11223CF631A000E6813 /* AnimationLayerPrivate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLayerPrivate.swift; sourceTree = "<group>"; };
+		9D0AE11623CF6362000E6813 /* AnimationLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLayer.swift; sourceTree = "<group>"; };
 		CD1616472367325A00325353 /* GradientValueProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientValueProvider.swift; sourceTree = "<group>"; };
 		E654753822AAA9AD00FE590F /* LayerTextProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerTextProvider.swift; sourceTree = "<group>"; };
 		E6EAA7B722AA834F00F345A4 /* AnimationTextProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTextProvider.swift; sourceTree = "<group>"; };
@@ -911,6 +919,7 @@
 				486E8702220B78BF007CD915 /* AnimationViewInitializers.swift */,
 				486E8703220B78BF007CD915 /* AnimationView.swift */,
 				486E8704220B78BF007CD915 /* AnimationPublic.swift */,
+				9D0AE11623CF6362000E6813 /* AnimationLayer.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -996,6 +1005,7 @@
 			children = (
 				486E8721220B78BF007CD915 /* CompLayers */,
 				486E872A220B78BF007CD915 /* AnimationContainer.swift */,
+				9D0AE11223CF631A000E6813 /* AnimationLayerPrivate.swift */,
 				486E872B220B78BF007CD915 /* Utility */,
 			);
 			path = LayerContainers;
@@ -1576,6 +1586,7 @@
 				486E87BF220B78D1007CD915 /* MaskContainerLayer.swift in Sources */,
 				486E87C0220B78D1007CD915 /* AnimationContainer.swift in Sources */,
 				486E87C1220B78D1007CD915 /* LayerTransformNode.swift in Sources */,
+				9D0AE11723CF6362000E6813 /* AnimationLayer.swift in Sources */,
 				486E87C2220B78D1007CD915 /* InvertedMatteLayer.swift in Sources */,
 				486E87C3220B78D1007CD915 /* LayerImageProvider.swift in Sources */,
 				486E87C4220B78D1007CD915 /* CompositionLayersInitializer.swift in Sources */,
@@ -1654,6 +1665,7 @@
 				486E8806220B78D1007CD915 /* ImageAsset.swift in Sources */,
 				486E8807220B78D1007CD915 /* PrecompAsset.swift in Sources */,
 				486E8808220B78D1007CD915 /* AssetLibrary.swift in Sources */,
+				9D0AE11323CF631A000E6813 /* AnimationLayerPrivate.swift in Sources */,
 				486E8809220B78D1007CD915 /* Asset.swift in Sources */,
 				486E880A220B78D1007CD915 /* LayerDebugging.swift in Sources */,
 				486E880B220B78D1007CD915 /* AnimatorNodeDebugging.swift in Sources */,
@@ -1710,6 +1722,7 @@
 				486E8836220B78E4007CD915 /* ImageCompositionLayer.swift in Sources */,
 				486E8837220B78E4007CD915 /* ShapeCompositionLayer.swift in Sources */,
 				486E8838220B78E4007CD915 /* MaskContainerLayer.swift in Sources */,
+				9D0AE11823CF6362000E6813 /* AnimationLayer.swift in Sources */,
 				486E8839220B78E4007CD915 /* AnimationContainer.swift in Sources */,
 				486E883A220B78E4007CD915 /* LayerTransformNode.swift in Sources */,
 				486E883B220B78E4007CD915 /* InvertedMatteLayer.swift in Sources */,
@@ -1788,6 +1801,7 @@
 				486E887F220B78E4007CD915 /* ImageAsset.swift in Sources */,
 				486E8880220B78E4007CD915 /* PrecompAsset.swift in Sources */,
 				486E8881220B78E4007CD915 /* AssetLibrary.swift in Sources */,
+				9D0AE11423CF631A000E6813 /* AnimationLayerPrivate.swift in Sources */,
 				486E8882220B78E4007CD915 /* Asset.swift in Sources */,
 				486E8883220B78E4007CD915 /* LayerDebugging.swift in Sources */,
 				486E8884220B78E4007CD915 /* AnimatorNodeDebugging.swift in Sources */,
@@ -1886,6 +1900,7 @@
 				486E88E2220B78F4007CD915 /* SolidLayerModel.swift in Sources */,
 				486E88E3220B78F4007CD915 /* LayerModel.swift in Sources */,
 				486E88E4220B78F4007CD915 /* ImageLayerModel.swift in Sources */,
+				9D0AE11923CF6362000E6813 /* AnimationLayer.swift in Sources */,
 				486E88E5220B78F4007CD915 /* TextLayerModel.swift in Sources */,
 				486E88E6220B78F4007CD915 /* PreCompLayerModel.swift in Sources */,
 				486E88E7220B78F4007CD915 /* ShapeLayerModel.swift in Sources */,
@@ -1904,6 +1919,7 @@
 				486E88F3220B78F4007CD915 /* Font.swift in Sources */,
 				486E88F4220B78F4007CD915 /* ImageAsset.swift in Sources */,
 				486E88F5220B78F4007CD915 /* PrecompAsset.swift in Sources */,
+				9D0AE11523CF631A000E6813 /* AnimationLayerPrivate.swift in Sources */,
 				486E88F6220B78F4007CD915 /* AssetLibrary.swift in Sources */,
 				486E88F7220B78F4007CD915 /* Asset.swift in Sources */,
 				486E88F8220B78F4007CD915 /* LayerDebugging.swift in Sources */,
