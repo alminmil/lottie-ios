@@ -20,7 +20,7 @@ extension AnimationContainer {
         }
     }
     static func layer(animation: Animation, imageProvider: AnimationImageProvider? = nil) -> AnimationContainer {
-        let layer = AnimationContainer(animation: animation, imageProvider: imageProvider ?? BundleImageProvider(bundle: Bundle.main, searchPath: nil), textProvider: DefaultTextProvider())
+        let layer = AnimationContainer(animation: animation, imageProvider: imageProvider ?? BundleImageProvider(bundle: Bundle.main, searchPath: nil), textProvider: DefaultTextProvider(), fontProvider: DefaultFontProvider())
         layer.animation = animation
         
         let fromStartFrame = animation.startFrame
