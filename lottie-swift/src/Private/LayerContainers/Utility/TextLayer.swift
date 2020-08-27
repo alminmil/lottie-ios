@@ -181,6 +181,8 @@ final class TextLayer: CALayer {
     let paragraphStyle = NSMutableParagraphStyle()
     paragraphStyle.lineSpacing = lineSpacing
     paragraphStyle.lineHeightMultiple = 1
+    paragraphStyle.minimumLineHeight = fontLineHeight
+    paragraphStyle.maximumLineHeight = fontLineHeight
     paragraphStyle.alignment = alignment
     paragraphStyle.lineBreakMode = NSLineBreakMode.byWordWrapping
     var attributes: [NSAttributedString.Key : Any] = [
